@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #FFF;
+}
+
+.main-header {
+  background: #000;
+  color: #FFF;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+.main-container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.btn-container {
+  padding: 5px;
+  text-align: center;
+}
+.buttons {
+  background-color: #72C3DC;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 0 #3794b1;
+  color: #fff;
+  margin-top: 2px;
+  min-width: 75px;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  transition: all ease 80ms;
+  outline: none;
+}
+.buttons:hover {
+  box-shadow: 0 1px 0 #3794b1;
+  cursor: pointer;
+  transform: translateY(1px);
+}
+
+.cards-container {
+  padding: 10px;
+}
+.card {
+  text-align: center;
+  padding: 10px;
+  background: #EFEFEF;
+  margin-bottom: 3px;
+}
+.card:first-child {
+  border-left: 4px solid #6e97a7;
+}
+.card:nth-child(2) {
+  border-left: 4px solid #2b8ead;
+}
+.card:nth-child(3) {
+  border-left: 4px solid #2f454e;
+}
+.card:nth-child(4) {
+  border-left: 4px solid #2b8ead;
+}
+.card:nth-child(5) {
+  border-left: 4px solid #2f454e;
+}
+.card:nth-child(6) {
+  border-left: 4px solid #bfbfbf;
+}
+.card:nth-child(7) {
+  border-left: 4px solid #bfbfbf;
+}
+.card:nth-child(8) {
+  border-left: 4px solid #6f98a8;
+}
+.card:nth-child(9) {
+  border-left: 4px solid #2f454e;
+}
+
+.main-footer {
+  text-align: center;
+}
+
+
+@media screen and (min-width:375px){
+  body {
+    background: #EFEFEF;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .btn-container {
+    width: 50%;
+    padding: 20px;
+  }
+  .buttons {
+    min-width: 150px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .card {
+    width: 33.33%;
+    border-left: none;
+    color: #FFF;
+    font-size: 54px;
+    margin: 0;
+  }
+  .card:first-child {
+    border-left: none;
+    background: #6e97a7;
+  }
+  .card:nth-child(2) {
+    background-color:#2b8ead;
+    border-left: none;
+  }
+  .card:nth-child(3) {
+    background-color:#2f454e;
+    border-left: none;
+  }
+  .card:nth-child(4) {
+    background-color:#2b8ead;
+    border-left: none;
+  }
+  .card:nth-child(5) {
+    background-color:#2f454e;
+    border-left: none;
+  }
+  .card:nth-child(6) {
+    background-color:#bfbfbf;
+    border-left: none;
+  }
+  .card:nth-child(7) {
+    background-color:#bfbfbf;
+    border-left: none;
+  }
+  .card:nth-child(8) {
+    background-color:#6f98a8;
+    border-left: none;
+  }
+  .card:nth-child(9) {
+    background-color: #2f454e;
+    border-left: none;
+  }
+}
